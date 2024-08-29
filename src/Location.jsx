@@ -92,7 +92,7 @@ function Location() {
 
             {selectedCountry && selectedState && selectedCity && (
                 <div style={{ marginTop: '20px' }}>
-                    <p>You Selected: {selectedCity}, {selectedState}, {selectedCountry}</p>
+                    <p>You Selected {selectedCity}, {selectedState}, {selectedCountry}</p>
                 </div>
             )}
         </div>
